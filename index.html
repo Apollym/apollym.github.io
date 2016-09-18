@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <meta charset="utf-8">
+        <title>Start Page Countdown</title>
+        <meta name="description" content="Pokemon SunMoon Countdown">
+        <meta name="Keywords" content="Homepage">
+        <meta name="author" content="Reilly Morgan">
+        <link rel="stylesheet" href="src/style.css">
+        <script src='src/jq.js'></script>
+        <script src='src/jquery.countdown.js'></script>
+     </head>
+   <body>
+       <div id="title">
+       <img src="src/moon_logo_en.png" id="moon"/>
+       <img src="src/sun_logo_en.png" id="sun"/>  
+           <div id="headtext">
+           <h1>POKEMON SUN AND MOON COUNTDOWN</h1>
+               </div>
+       </div>
+	<div id='main'>
+        
+        <div id="pokemon" class="linksleft"><a href="http://www.pokemon-sunmoon.com/en-us/" class="title">Pokemon</a></div>
+        <div id="chins" class="linksleft"><a href="http://4chan.org/vp" class="title">Vp</a></div>
+        <div id="reddit" class="linksleft"><a href="http://reddit.com/r/pokemon" class="title">R/Pokemon</a></div>
+            
+       
+        <div id="serebii" class="links"><a href="http://serebii.net" class="title">Serebii</a></div>
+        <div id="maple" class="links"><a href="http://maplestory.nexon.net" class="title">MapleStory</a></div>
+        <div id="parent">
+        <div id="youtube" class="linksright" class="link">
+            <div class='title'><p class='name'>YouTube</p></div>
+            <div class='dropleft'>
+                    <a href='https://www.youtube.com/feed/subscriptions'>Subscriptions</a>
+                    <a href='https://www.youtube.com/channel/UCRNCUBq676nUhXyy8AJzD5w'>Joel</a>
+                    <a href='https://www.youtube.com/channel/UC9CuvdOVfMPvKCiwdGKL3cQ'>Grumps</a>
+                    <a href='https://www.youtube.com/channel/UCFctpiB_Hnlk3ejWfHqSm6Q'>Pokemon</a>
+                    <a href='https://www.youtube.com/channel/UCoal_hpPIPAnWlG-kWHLheA'>Drawfee</a>
+                </div>
+        </div>
+        </div>     
+
+        <h1 id='count'></h1>
+        <script>
+            $('#count').countdown('2016/11/18', function(event) {
+              $(this).html(event.strftime('%D days %H:%M:%S'));
+            });
+        </script>
+        <form method="get" action="https://www.google.com/search">
+        <input type="text" placeholder="Google Search" name="q" size="31" value="" autocomplete='false' autofocus='yes' id='search'></form>
+
+    </div>
+        
+    </body>
+    </html>
+
+    <!--fuck with #count in the css to move the countdown timer.

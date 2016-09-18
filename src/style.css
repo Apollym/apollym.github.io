@@ -1,0 +1,253 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face{
+    font-family: Exo2-Regular;
+    src: url('Exo2-Regular.otf');
+}
+
+body {
+    background: url('sunmoon.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    font-family: 'Exo2-Regular', sans-serif;
+}
+
+#title {
+	position: absolute;
+	margin: auto;
+	top: 100px;
+	left: 0px; right: 0px;
+    width: 1000px; height: 200px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 8px;
+    
+
+}
+
+
+#main {
+	position: absolute;
+	margin: auto;
+	top: 300px; bottom: 0px;
+	left: 0px; right: 0px;
+    width: 1000px; height: 600px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 8px;
+    
+
+}
+
+#pokemon {
+    right: 204px;
+}
+
+#chins {
+    right: 508px;
+}
+
+#reddit {
+    right: 812px;
+}
+
+.linksleft {
+    position: absolute;
+    margin: auto;
+    top: 20px; left: 0px; 
+    width: 110px; height: 40px;
+    opacity: 0.7;
+    border: 2px solid #D3D3D3;
+    border-radius: 50px;
+    background: #fff;
+    transition: 0.3s ease;
+}
+
+
+.linksleft:hover {
+    opacity: 1.0;
+    transform: scale(1.1, 1.05)
+}
+
+#serebii {
+    left: 204px;
+}
+
+#maple {
+    left: 508px;
+}
+
+#youtube {
+    left: 812px;
+}
+
+.links, .linksright {
+    position: absolute;
+    margin: auto;
+    top: 20px; right: 0px; 
+    width: 110px; height: 40px;
+    opacity: 0.7;
+    border: 2px solid #D3D3D3;
+    border-radius: 50px;
+    background: #fff;
+    transition: 0.3s ease;
+}
+
+.linksright:hover, .links:hover {
+    opacity: 1.0;
+    transform: scale(1.1, 1.05)
+}
+
+.title {
+    top: 12px; bottom: 0px;
+    left: 0px; right: 0px;
+    text-align: center;
+    position: absolute;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+
+.link {
+    position: absolute;
+    margin: auto;
+
+    width: 298;
+    height: 0;
+
+    background: #fff;
+    opacity: 0.5;
+
+    transition: 0.5s ease;
+}
+
+.linksright a {
+    display: none;
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+    width: auto;
+    transition: 0.2s ease;
+    padding: 2px;
+}
+
+.linksright:hover {
+    height: 170px;
+    opacity: 0.8;
+    border-radius: 30px;
+}
+
+.linksright:hover a {
+    display: block;
+}
+
+.dropleft {
+    position: absolute;
+    right: 0px; left: 0px; bottom: 0px; top: 48px;
+    text-align: center;
+    height: ;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.dropleft a:hover {
+    text-decoration: underline;
+}
+
+#count {
+    text-align: center;
+    font-size: 56px;
+    margin-top: 156px;
+    color: #fff;
+}
+
+
+#search {
+    position: absolute;
+    margin: auto;
+    bottom: 0; top: 58px;
+    left: 0; right: 0;
+
+    height: 44px;
+    width: 402px;
+
+    border: 2px solid #D3D3D3;
+    border-radius: 12px;
+
+    font-size: 22px;
+
+    font-family: 'Exo2-Regular', sans-serif;
+
+    text-align: center;
+}
+
+#sun {
+    position: absolute;
+    margin: auto;
+    left: 200px; right: 0px;
+    top: 0px; bottom: 50px;
+}
+
+#moon {
+    position: absolute;
+    margin: auto;
+    left: 0px; right: 200px;
+    top: 0px; bottom: 50px;
+}
+
+#headtext {
+    height: 20px;
+    text-align: center;
+    margin-top: 140px;
+    font-size: 25px;
+    color: #fff;
+}
