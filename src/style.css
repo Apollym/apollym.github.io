@@ -77,7 +77,7 @@ body {
 #main {
 	position: absolute;
 	margin: auto;
-	top: 300px; bottom: 0px;
+	top: 350px; 
 	left: 0px; right: 0px;
     width: 1000px; height: 600px;
     background-color: rgba(0,0,0,0.5);
@@ -251,3 +251,4 @@ body {
     font-size: 25px;
     color: #fff;
 }
+
