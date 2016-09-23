@@ -55,9 +55,10 @@ table {
 body {
     background: url('sunmoon.jpeg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 100%;
-    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    min-height: 100%;
     font-family: 'Exo2-Regular', sans-serif;
 }
 
