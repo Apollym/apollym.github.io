@@ -5,55 +5,73 @@
     <meta name="description" content="space stuff" />
     <meta name="Keywords" content="space stuff yay" />
     <meta name="author" content="Reilly Morgan" />
-    <link rel='stylesheet' href='src/index.css' />
-    <script src='src/jquery-2.2.4.min.js'></script>
-    <script src='src/script.js'></script>
+    <link rel='stylesheet' href='src/./css/index.css' />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" /> 
     <title>SPaaaaCE Home</title>
 </head>
 <!-- obviously the head tag, full of beautiful meta data and the like-->
 <body>
-    <div id='links'>
-        <ul>
-        <li><a href="technology.html">Technology</a></li>
-        <li><a href="slingshot.html">Slingshot Theory</a></li>
-        <li><a href="index.html" id="onhome">Home</a></li>
-        </ul></div>
+     <div id="scenes" class="linksleft"><a href="scene.html" class="title2">The Moon Scenery</a></div>
+     <div id="sling" class="linksleft"><a href="slingshot.html" class="title2">Slingshot Theory</a></div>
+     <div id="tech" class="linksleft"><a href="technology.html" class="title">SpaceCraft</a></div>
+     <div id="home" class="onhome"><a href="index.html" class="title">home</a></div>
 <!--a div containing all the links to the other pages in my site-->
     <div id='cover'></div>
-    <div id='box'><img src="src/morespace.jpg" id="space" alt="space"></div>
-    <div id='boxtwo'><img src="src/morespace.jpg" id="space1" alt="space"></div>
-    <div id='boxthree'><img src="src/morespace.jpg" id="space2" alt="space"></div>
-    <!--a cover div which is currently set to display none in the css, until clicked, as well as the divs that cover the cover with their respective images in them. Image choices are currently pending, and none of the images in this prototype are final-->
-    <div id='title'><h1>SPaaaaCE</h1></div>
+    <div id='box'><img src="src/./img/morespace.jpg" id="space" alt="space"></div>
+    
+    <!-- this was a stock background image from  fansshare.com. accessed 2016. "outerspace-wallpaper."http://www.fansshare.com/gallery/photos/12951441/outerspace-wallpaper/?displaying. -->
+    
+    <div id='boxtwo'><img src="src/./img/craft.jpg" id="space1" alt="space"></div>
+    
+    <!-- this image is from wikipedia commons. accessed 2016. "File:EDP and CEV leaving orbit.jpg".  https://commons.wikimedia.org/wiki/File:EDP_and_CEV_leaving_orbit.jpg"-->
+    
+    <div id='boxthree'><img src="src/./img/planets.jpg" id="space2" alt="space"></div>
+    
+    <!-- this image is from WallpaperStock.net. accessed 2016. "Planets Light Purple Space Wallpapers".http://wallpaperstock.net/planets-light-purple-space-wallpapers_w44841.html. -->
+    
+    <!--a cover div which is currently set to display none in the css, until clicked, as well as the divs that cover the cover with their respective images in them. -->
+        <div id='title'><a href="index.html"><h1>SPaaaaCE</h1></a></div>
     
     <div id='main'>
         
    
         
-<img src='src/space-06.jpg' id='banner' alt="space" />
+<img src='src/./img/space-06.jpg' id='banner' alt="space" />
 <!-- a nice banner image for the top of the main body-->
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. </p>
+<p>The solar system is made up of the sun and everything that orbits around it, including planets, moons, asteroids, comets and meteoroids. It extends from the sun, called Sol by the ancient Romans, and goes past the four inner planets, through the Asteroid Belt to the four gas giants and on to the disk-shaped Kuiper Belt and far beyond to the giant, spherical Oort Cloud and the teardrop-shaped heliopause. Scientists estimate that the edge of the solar system is about 9 billion miles (15 billion kilometers) from the sun.</p>
+    
+<p>For millennia, astronomers have followed points of light that seemed to move among the stars. The ancient Greeks named these planets, meaning "wanderers." Mercury, Venus, Mars, Jupiter and Saturn were known in antiquity, and the invention of the telescope added the Asteroid Belt, Uranus, Neptune, Pluto and many of these worlds' moons. The dawn of the space age saw dozens of probes launched to explore our system, an adventure that continues today. The discovery of Eris kicked off a rash of new discoveries of dwarf planets.  
 
-<p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. <b>Mauris massa</b>. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. </p>
+Astronomers are now hunting for another planet in our solar system, a true ninth planet, after evidence of its existence was unveiled on Jan. 20, 2016. The so-called "Planet Nine," as scientists are calling it, is about 10 times the mass of Earth and 5,000 times the mass of Pluto.  </p>
 
-<img src='src/morespace.jpg' id='img' alt="space"/>
-<img src='src/morespace.jpg' id='imgtwo' alt="space"/>
-<img src='src/morespace.jpg' id='imgthree' alt="space"/>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. </p>
+<p>Many scientists think our solar system formed from a giant, rotating cloud of gas and dust known as the solar nebula. As the nebula collapsed because of its gravity, it spun faster and flattened into a disk. Most of the material was pulled toward the center to form the sun. Other particles within the disk collided and stuck together to form asteroid-sized objects named as planetesimals, some of which combined to become the asteroids, comets, moons and planets.
 
-<p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. <b>Mauris massa</b>. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. </p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. </p>
+The solar wind from the sun was so powerful that it swept away most of the lighter elements, such as hydrogen and helium, from the innermost planets, leaving behind mostly small, rocky worlds. The solar wind was much weaker in the outer regions, however, resulting in gas giants made up mostly of hydrogen and helium. </p>
 
-<p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. <b>Mauris massa</b>. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. </p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. </p>
+<img src='src/./img/morespace.jpg' id='img' alt="space"/>
+<img src='src/./img/craft.jpg' id='imgtwo' alt="space"/>
+<img src='src/./img/planets.jpg' id='imgthree' alt="space"/>
+<p>The four inner four planets — Mercury, Venus, Earth and Mars — are made up mostly of iron and rock. They are known as terrestrial or earthlike planets because of their similar size and composition. Earth has one natural satellite — the moon— and Mars has two moons — Deimos and Phobos.
 
-<p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. <b>Mauris massa</b>. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. </p>
+Between Mars and Jupiter lies the Asteroid Belt. Asteroids are minor planets, and scientists estimate there are more than 750,000 of them with diameters larger than three-fifths of a mile (1 km) and millions of smaller asteroids. The dwarf planet Ceres, about 590 miles (950 km) in diameter, resides here. A number of asteroids have orbits that take them closer into the solar system that sometimes lead them to collide with Earth or the other inner planets. </p>
+
+<p>The outer planets — Jupiter, Saturn, Uranus and Neptune — are giant worlds with thick outer layers of gas. Nearly all their mass is made up of hydrogen and helium, giving them compositions like that of the sun. Beneath these outer layers, they have no solid surfaces — the pressure from their thick atmospheres liquefy their insides, although they might have rocky cores. Rings of dust, rock, and ice encircle all these giants, with Saturn's being the most famous.</p>
+<p>Comets are often known as dirty snowballs, and consist mainly of ice and rock. When a comet's orbit takes it close to the sun, some of the ice in its central nucleus turns into gas that shoots out of the comet's sunlit side, which the solar wind carries outward to form into a long tail. Short-period comets that complete their orbits in less than 200 years are thought to originate from the disk-shaped Kuiper Belt, while long-period comets that take more than 200 years to return are thought to come from the spherical Oort Cloud.</p>
+
+<p>Astronomers had long suspected that a band of icy material known as the Kuiper Belt existed past the orbit of Neptune extending from about 30 to 55 times the distance of Earth to the sun, and from the last decade of the 20th century up to now, they have found more than a thousand of such objects. Scientists estimate the Kuiper Belt is likely home to hundreds of thousands of icy bodies larger than 60 miles (100 km) wide, as well as an estimated trillion or more comets.
+
+ </p>
+<p>Pluto, now considered a dwarf planet, dwells in the Kuiper Belt. It is not alone — recent additions include Makemake, Haumea and Eris. Another Kuiper Belt object dubbed Quaoar is probably massive enough to be considered a dwarf planet, but it has not been classified as such yet. Sedna, which is about three-fourths the size of Pluto, is the first dwarf planet discovered in the Oort Cloud. NASA's New Horizons mission performed history's first flyby of the Pluto system on July 14, 2015, and continues to explore the Kuiper Belt.  </p>
+
+<p>The Oort Cloud lies well past the Kuiper Belt, and theoretically extends from 5,000 to 100,000 times the distance of Earth to the sun, and is home to up to 2 trillion icy bodies, according to NASA. Past the Oort Cloud is the very edge of the solar system, the heliosphere, a vast, teardrop-shaped region of space containing electrically charged particles given off by the sun. Many astronomers think that the limit of the heliosphere, known as the heliopause, is about 9 billion miles (15 billion km) from the sun. </p>
 </div>
-<!-- a main div containing all the major body information inculding images, text etc. of course all the text will, for the final be proper information relative to the topic as will all the images be different and relative to their pages.-->
+<!-- information references Choi, Charles. accessed 2016, "Solar System Facts: A Guide to Things Orbiting Our Sun". http://www.space.com/56-our-solar-system-facts-formation-and-discovery.html -->
     
 
 <div id='gap'></div>
     <!--a small div at the bottom to add some space for a footer later-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">src='src/./js/jquery-2.2.4.min.js'></script>
+    <script src='src/./js/script.js'></script>
     </body>
 </html>
