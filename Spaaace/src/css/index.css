@@ -256,7 +256,7 @@ a {
 #imgtop {
     border: 2px solid #000;
 	height: 200px; width: 300px;
-    left: 25px;
+    
 	position: relative;
     top:15px;
 	margin: 0 auto;
@@ -279,9 +279,9 @@ a {
 }
 /*images on "technology*/
 #info {
-    height: 300px; width: 700px;
-    display: inline-block;
-    padding-left: 30px;    
+height: 300px; width: 700px;
+display: inline-block;
+   
     
 }
 
