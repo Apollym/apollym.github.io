@@ -82,7 +82,7 @@ html {
 }
 #main2 {
 	width: 1060px;
-	height: 800px;
+	height: 850px;
 
 	background: #fff;
 
@@ -96,11 +96,12 @@ html {
 }
 /*setting the parameters for the main body, had to do an alternate for one page as something went wrong and I couldn't find a way around it*/
 #title {
-	width: auto;
+	width: 350px;
 	height: 80px;
     padding-top: 15px;
   
 	background: none;
+    margin: auto;
 
 	text-align: center;
 
@@ -128,6 +129,7 @@ h1 {
 p {
 	padding-top: 12px;
 	margin: 30px;
+
 }
 
 #img {
@@ -314,6 +316,7 @@ display: inline-block;
     padding-left: 7px;
 }
 /*start button div, plus text and hover feedback*/
+
 path {
   fill:none ;
   stroke: #ff0000;
@@ -346,7 +349,7 @@ border-radius: 8px;
 }
 /*svg path as well as it's bounding box*/
 #slingtext {
-    height: 200px;
+    height: 250px;
     width: 1000px;
     margin: auto;
     position: relative;
@@ -534,7 +537,7 @@ border-radius: 8px;
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    color: rebeccapurple;
+    color: #662299;
 }
 .title2 {
     top: 10px; bottom: 0px;
@@ -543,5 +546,47 @@ border-radius: 8px;
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    color: rebeccapurple;
+    color: #663399;
+}
+
+#footer {
+	width: 1060px;
+	height: 90px;
+	background: #fff;
+	margin: auto;
+	left: 0; right: 0;
+	top: 20px;
+	padding-top: 2px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+#copywright {
+    width: 1000px;
+    height: 60px;
+    margin: 0 auto;
+ 
+}
+#press {
+    margin: 0 auto;
+    width: 250px;
+    padding: 10px;
+    font-size: 120%;
+    text-transform: uppercase;
+}
+
+#craft {
+    margin: 0 auto;
+    width: 300px;
+    padding-top: 40px;
+    font-size: 120%;
+    text-transform: uppercase;
+}
+
+#theory {
+    margin: 0 auto;
+    width: 300px;
+    padding-top: 20px;
+    font-size: 120%;
+    text-transform: uppercase;
 }

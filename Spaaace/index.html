@@ -47,6 +47,10 @@ Astronomers are now hunting for another planet in our solar system, a true ninth
 <p>Many scientists think our solar system formed from a giant, rotating cloud of gas and dust known as the solar nebula. As the nebula collapsed because of its gravity, it spun faster and flattened into a disk. Most of the material was pulled toward the center to form the sun. Other particles within the disk collided and stuck together to form asteroid-sized objects named as planetesimals, some of which combined to become the asteroids, comets, moons and planets.
 
 The solar wind from the sun was so powerful that it swept away most of the lighter elements, such as hydrogen and helium, from the innermost planets, leaving behind mostly small, rocky worlds. The solar wind was much weaker in the outer regions, however, resulting in gas giants made up mostly of hydrogen and helium. </p>
+        
+        <h2 id='press'> Click images to expand</h2>
+        
+        <!--this is to cue the user that the images are clickable, teaching them that this is something you can do across most images on the site.-->
 
 <img src='src/./img/morespace.jpg' id='img' alt="space"/>
 <img src='src/./img/craft.jpg' id='imgtwo' alt="space"/>
@@ -66,12 +70,19 @@ Between Mars and Jupiter lies the Asteroid Belt. Asteroids are minor planets, an
 <p>The Oort Cloud lies well past the Kuiper Belt, and theoretically extends from 5,000 to 100,000 times the distance of Earth to the sun, and is home to up to 2 trillion icy bodies, according to NASA. Past the Oort Cloud is the very edge of the solar system, the heliosphere, a vast, teardrop-shaped region of space containing electrically charged particles given off by the sun. Many astronomers think that the limit of the heliosphere, known as the heliopause, is about 9 billion miles (15 billion km) from the sun. </p>
 </div>
 <!-- information references Choi, Charles. accessed 2016, "Solar System Facts: A Guide to Things Orbiting Our Sun". http://www.space.com/56-our-solar-system-facts-formation-and-discovery.html -->
-    
+<div id='footer'><p id='copywright'> This website has been created as part of an assignment in an approved course of study for Curtin University and contains copyright material not created by the author. All copyright material used remains copyright of the respective owners and has been used here pursuant to Section 40 of the Copyright Act 1968 (Commonwealth of Australia). No part of this work may be reproduced without consent of the original copyright owners. See code comments for references.</p></div>    
 
-<div id='gap'></div>
+<div id='gap'> </div>
     <!--a small div at the bottom to add some space for a footer later-->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script type="text/javascript">src='src/./js/jquery-2.2.4.min.js'></script>
+    
+    <script type="text/javascript"
+    src= "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script type="text/javascript">
+if (typeof jQuery == 'undefined') {
+    document.write(unescape("%3Cscript src='src/./js/jquery-2.2.4.min.js' type='text/javascript'%3E%3C/script%3E"));
+}
+</script> 
     <script src='src/./js/script.js'></script>
+    
     </body>
 </html>
