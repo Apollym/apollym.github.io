@@ -65,7 +65,7 @@ body {
      font-family: 'Exo2-Regular', sans-serif;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 1080px){
 	body{
 		background: url('http://www.pokemon-sunmoon.com/ultra/assets/img/global/bg-star-beams-m.jpg');
      background-repeat: no-repeat;
