@@ -53,11 +53,11 @@ table {
 }
 
 #sun {
-    width: 100px;
+   max-width: 50px;
 }
 
 #moon {
-    width: 100px;
+    max-width: 50px;
 }
 
 body {
