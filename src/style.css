@@ -52,13 +52,7 @@ table {
     src: url('Exo2-Regular.otf');
 }
 
-#sun {
-   max-width: 50px;
-}
 
-#moon {
-    max-width: 50px;
-}
 
 body {
     background: url('http://www.pokemon-sunmoon.com/ultra/assets/img/global/bg-star-beams.jpg');
@@ -240,6 +234,7 @@ body {
 }
 
 #sun {
+    max-width: 150px;
     position: absolute;
     margin: auto;
     left: 200px; right: 0px;
@@ -247,6 +242,7 @@ body {
 }
 
 #moon {
+    max-width: 150px;
     position: absolute;
     margin: auto;
     left: 0px; right: 200px;
