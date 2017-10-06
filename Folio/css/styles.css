@@ -22,6 +22,7 @@
   top: 100px;
 }
 
+
 .inner2{
   position: relative;
   margin-left: auto; margin-right: auto;
@@ -119,7 +120,6 @@ body {
   color: white;
   font-family: 'Oswald Light', sans-serif;
   text-align: center;
-  font-style:
 }
 #links {
   padding-top: 4em;
@@ -127,6 +127,10 @@ body {
   position: relative;
   text-align: center;
 }
+ul {padding: 0;
+
+}
+
 
 #links li{
   display: inline;
@@ -224,4 +228,43 @@ body {
 .info a{
     color: black;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 480px){
+
+  .logo {
+    min-width: 270px;
+    display: block;
+
+  }
+
+.inner {
+  top: 0px;
+}
+  .tagline {
+    padding: 10px;
+    margin: auto;
+    position: relative;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    z-index: 3;
+    color: white;
+    font-family: 'Oswald Light', sans-serif;
+    text-align: center;
+  }
+
+#links {
+  width: 60%;
+  padding-top: 10px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+#links li{
+    padding: 0px;
+    margin-bottom: 20px;
+    display: block;
+}
+
 }
