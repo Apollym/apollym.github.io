@@ -75,6 +75,10 @@ body {
      min-height: 100%;
      margin: 0;
 	}
+	
+	#main {
+		width: 90%;
+	}
 }
 #title {
 	position: absolute;
