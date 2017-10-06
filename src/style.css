@@ -79,6 +79,10 @@ body {
 	#main {
 		width: 90%;
 	}
+	
+	#title {
+		width: 90%;
+	}
 }
 #title {
 	position: absolute;
