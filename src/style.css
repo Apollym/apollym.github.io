@@ -55,13 +55,14 @@ table {
 
 
 body {
-    background: url('http://www.pokemon-sunmoon.com/ultra/assets/img/global/bg-star-beams.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    
-    min-height: 100%;
-    font-family: 'Exo2-Regular', sans-serif;
+     background: url('http://www.pokemon-sunmoon.com/ultra/assets/img/global/bg-star-beams.jpg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     position: relative;
+     min-height: 100%;
+     margin: 0;
+     font-family: 'Exo2-Regular', sans-serif;
 }
 
 #title {
