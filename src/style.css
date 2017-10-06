@@ -184,7 +184,7 @@ body {
 }
 
 .linksright:hover {
-    height: 170px;
+    height: 190px;
     opacity: 0.8;
     border-radius: 30px;
 }
@@ -234,19 +234,23 @@ body {
 }
 
 #sun {
-    max-width: 150px;
+    max-width: 400px;
     position: absolute;
     margin: auto;
-    left: 200px; right: 0px;
-    top: 0px; bottom: 50px;
+    left: 400px;
+    right: 0px;
+    top: 0px;
+    bottom: 80px;
 }
 
 #moon {
-    max-width: 150px;
+    max-width: 400px;
     position: absolute;
     margin: auto;
-    left: 0px; right: 200px;
-    top: 0px; bottom: 50px;
+    left: 0px;
+    right: 400px;
+    top: 0px;
+    bottom: 80px;
 }
 
 #headtext {
