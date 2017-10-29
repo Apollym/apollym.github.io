@@ -8,6 +8,8 @@
   width: 150px; height: 100px;
 }
 
+
+
 /* Standard Document Font*/
 @font-face {
     font-family:"ApollymRegular";
@@ -88,7 +90,6 @@ button:hover {
 }
 
 body {
-  background-image: url('../img/homebg.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -96,6 +97,10 @@ body {
   min-height: 100%;
   font-family: 'ApollymRegular', sans-serif;
   margin: 0;
+}
+
+.homebg {
+  background-image: url('../img/homebg.png');
 }
 
 .projbg {
@@ -110,6 +115,13 @@ body {
   background-image: url('../img/Mimikyu.png');
 }
 
+.animbg {
+  background-image: url('../img/animbg.jpg');
+}
+
+.illustbg {
+  background-image: url('../img/illustbg.png');
+}
 .tagline {
   padding-top: 10px;
   margin: auto;
@@ -205,12 +217,24 @@ ul {padding: 0;
     cursor: pointer;
 }
 
-.projects img{
-    height: 50vh;
-    vertical-align: center;
+.folioimganim {
+    height: 32vh;
+    padding: 2em;
+    display: inline;
+    position: relative;
+    margin: 0 auto;
+    transition: 0.3s ease;
+    border-radius: 35px;
+    cursor: pointer;
 }
 
-.folioimg:hover {
+
+.folioimg:hover{
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.folioimganim:hover {
     transform: scale(1.05);
     opacity: 0.9;
 }
@@ -230,7 +254,51 @@ ul {padding: 0;
     text-decoration: underline;
 }
 
+.black-popup-block {
+  background: black;
+  padding: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-popup-container .project-primary,
+.project-popup-container .project-secondary {
+  display: inline-block;
+  vertical-align: top;
+  font-family: "Raleway", sans-serif;
+
+}
+
+.project-popup-container .project-primary {
+  width: 30%;
+  background: white;
+  padding: 20px;
+
+}
+
+.project-popup-container .project-secondary {
+  width: 60%;
+  padding-left: 7%;
+}
+
 @media screen and (max-width: 480px){
+
+  .test{
+    width: 100%;
+  }
+
+  .project-popup-container .project-primary {
+    width: auto;
+    background: white;
+    padding: 20px;
+    margin: 0 auto;
+
+  }
+
+  .project-popup-container .project-secondary {
+    width: auto;
+    padding: 0;
+  }
 
   .logo {
     min-width: 270px;
@@ -266,5 +334,79 @@ ul {padding: 0;
     margin-bottom: 20px;
     display: block;
 }
+
+.homebg {
+  background-image: url('../img/homebgmob.png');
+}
+
+.projbg {
+  background-image: url('../img/projbgmob.png');
+}
+
+.conbg {
+  background-image: url('../img/abramob.png');
+}
+
+.aboutbg {
+  background-image: url('../img/Mimikyumob.png');
+}
+
+.animbg {
+  background-image: url('../img/animbgmob.png');
+}
+
+.illustbg {
+  background-image: url('../img/illustbgmob.png');
+}
+
+.pagehead {
+
+  font-size: 3em;
+}
+.folioimg {
+    height: 25vh;
+    padding: 1em;
+    display: inline;
+    position: relative;
+    margin: 0 auto;
+    transition: 0.3s ease;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.folioimganim {
+    height: 25vh;
+    padding: 1em;
+    display: inline;
+    position: relative;
+    margin: 0 auto;
+    transition: 0.3s ease;
+    border-radius: 5px;
+    cursor: pointer;
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+  .folioimg {
+      height: 30vh;
+      padding: 1em;
+      display: inline;
+      position: relative;
+      margin: 0 auto;
+      transition: 0.3s ease;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  .project-popup-container .project-primary {
+    width: auto;
+    background: white;
+    padding: 20px;
+    margin: 1em auto;
+    text-align: center;
+    display: inherit;
+  }
 
 }
