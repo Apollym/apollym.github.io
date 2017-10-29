@@ -387,7 +387,31 @@ ul {padding: 0;
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1080px){
+
+  .homebg {
+    background-image: url('../img/homebgmob.png');
+  }
+
+  .projbg {
+    background-image: url('../img/projbgmob.png');
+  }
+
+  .conbg {
+    background-image: url('../img/abramob.png');
+  }
+
+  .aboutbg {
+    background-image: url('../img/Mimikyumob.png');
+  }
+
+  .animbg {
+    background-image: url('../img/animbgmob.png');
+  }
+
+  .illustbg {
+    background-image: url('../img/illustbgmob.png');
+  }
 
   .folioimg {
       height: 30vh;
