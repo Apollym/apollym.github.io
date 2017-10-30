@@ -16,6 +16,7 @@
     src: url("../fonts/Apollym-Regular.ttf");
 }
 
+/* Main body styling */
 .inner{
   position: relative;
   margin-left: auto; margin-right: auto;
@@ -98,6 +99,7 @@ body {
   font-family: 'ApollymRegular', sans-serif;
   margin: 0;
 }
+/*background styles*/
 
 .homebg {
   background-image: url('../img/homebg.png');
