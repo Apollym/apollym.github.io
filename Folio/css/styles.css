@@ -348,7 +348,6 @@ ul {padding: 0;
 
 .projbg {
   background-image: url('../img/projbgmob.png');
-  background-size: contain;
 }
 
 .conbg {
@@ -404,7 +403,6 @@ ul {padding: 0;
 
   .projbg {
     background-image: url('../img/projbgmob.png');
-	  background-size: contain;
   }
 
   .conbg {
