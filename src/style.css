@@ -232,7 +232,7 @@ body {
     text-align: center;
 }
 
-#sun {
+#winds {
     max-width: 400px;
     position: absolute;
     margin: auto;
@@ -242,7 +242,7 @@ body {
     bottom: 80px;
 }
 
-#moon {
+#waves {
     max-width: 400px;
     position: absolute;
     margin: auto;
