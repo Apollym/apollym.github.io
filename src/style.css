@@ -55,34 +55,13 @@ table {
 
 
 body {
-     background: url('http://www.pokemon-sunmoon.com/ultra/assets/img/global/bg-star-beams.jpg');
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-size: cover;
-     position: relative;
-     min-height: 100%;
-     margin: 0;
-     font-family: 'Exo2-Regular', sans-serif;
-}
-
-@media screen and (max-width: 1080px){
-	body{
-		background: url('http://www.pokemon-sunmoon.com/ultra/assets/img/global/bg-star-beams-m.jpg');
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-size: cover;
-     position: relative;
-     min-height: 100%;
-     margin: 0;
-	}
-	
-	#main {
-		width: 900px;
-	}
-	
-	#title {
-		width: 900px;
-	}
+    background: url('https://windswaves.pokemon.com/_images/global/background-pattern-2x.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    min-height: 100%;
+    font-family: 'Exo2-Regular', sans-serif;
 }
 #title {
 	position: absolute;
